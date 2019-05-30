@@ -9,32 +9,56 @@
   },
   "articles": [
     {
-      "head": "head",
-      "title": "title",
-      "content": "content",
+      "head": "Nun ce sta' mammà là dint'!",
+      "title": "Quann steva là in Honduras, steva rint a na capanna e nziemm a me ce steva.",
+      "content": "E intant' e sord tuoj nunn arrivavan. 'Na sera gli honduregni me mettetter' nu macete n'man e gridavan': 'Accirel'! Accirel'! Je pregav', pregav' ca corcrun' me venev' a salva', ca tu me veniv' a salva'!",
       "author": {
-        "image": "http://example.com/image.png",
+        "image": "data:image/png;base64,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",
         "name": "Lorem Ipsum"
       }
     }
   ],
   "gallery": [
     {
-      "url": "http://example.com/image1.png",
-      "alt": "first image"
+      "url": "gallery/1.png",
+      "alt": "lady on rails"
     },
     {
-      "url": "http://example.com/image2.png",
-      "alt": "second image"
+      "url": "gallery/2.png",
+      "alt": "I love cutting bananas"
+    },
+    {
+      "url": "gallery/3.png",
+      "alt": "fancy black and white portrait"
+    },
+    {
+      "url": "gallery/4.png",
+      "alt": "very romantic couple"
+    },
+    {
+      "url": "gallery/5.png",
+      "alt": "not sure what this image depicts"
+    },
+    {
+      "url": "gallery/6.png",
+      "alt": "neon-lit face"
     }
   ],
   "boxes": [
     {
       "number": "01",
-      "head": "head",
-      "title": "title",
-      "content": "content",
+      "icon": "pork",
+      "title": "Sapeva pure ca oggi je e te stevema inda 'sta machina",
+      "content": "Quann' tu me purtast' a spara' chillu cristian' p'a prima vota.",
       "action": "Clicca qui"
+    },
+    {
+      "number": "02",
+      "content": "Quann' Salvatore Conte è turnat', quann' Danielino è muort', iss 'o sapeva."
+    },
+    {
+      "number": "03",
+      "content": "Mammà se n'è ghiuta! Tu ci credi in Dio?"
     }
   ]
 }
