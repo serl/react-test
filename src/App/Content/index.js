@@ -11,9 +11,11 @@ function Content({ articles, gallery, boxes, setPopup }) {
         <Article key={i} {...item} />
       ))}
       <Gallery images={gallery} />
-      {boxes.map((item, i) => (
-        <Box key={i} {...item} setPopup={setPopup} />
-      ))}
+      <div className="boxes-container">
+        {boxes.map((item, i) => (
+          <Box key={i} {...item} setPopup={setPopup} />
+        ))}
+      </div>
     </div>
   );
 }
