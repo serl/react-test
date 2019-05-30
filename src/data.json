@@ -54,7 +54,29 @@
       "icon": "pork",
       "title": "Sapeva pure ca oggi je e te stevema inda 'sta machina",
       "content": "Quann' tu me purtast' a spara' chillu cristian' p'a prima vota.",
-      "action": "Clicca qui"
+      "action": "Clicca qui",
+      "gallery": [
+        {
+          "url": "gallery/4.png",
+          "alt": "very romantic couple"
+        },
+        {
+          "url": "gallery/4.png",
+          "alt": "very romantic couple, a second time"
+        },
+        {
+          "url": "gallery/4.png",
+          "alt": "very romantic couple, a third time"
+        },
+        {
+          "url": "gallery/4.png",
+          "alt": "very romantic couple, a fourth time"
+        },
+        {
+          "url": "gallery/4.png",
+          "alt": "very romantic couple, a fifth time"
+        }
+      ]
     },
     {
       "number": "02",

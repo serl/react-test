@@ -1,7 +1,7 @@
 import React from 'react';
 import './Box.css'
 
-function Box({ number, icon, title, content, action, setPopup }) {
+function Box({ number, icon, title, content, action, gallery, setPopup }) {
   return (
     <div className="box">
       <div className="number">{number}</div>
@@ -9,7 +9,7 @@ function Box({ number, icon, title, content, action, setPopup }) {
       <h2>{title}</h2>
       <div className="box-content">
         <p>{content}</p>
-        {action && <button onClick={() => setPopup({ content })}>{action}</button>}
+        {action && <button onClick={() => setPopup({ content, gallery })}>{action}</button>}
       </div>
     </div>
   );
