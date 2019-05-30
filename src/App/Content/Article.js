@@ -3,7 +3,7 @@ import './Article.css';
 
 function Article({ head, title, content, author }) {
   return (
-    <article>
+    <article className="content-unit">
       <h3>{head}</h3>
       <h2>{title}</h2>
       <p>{content}</p>

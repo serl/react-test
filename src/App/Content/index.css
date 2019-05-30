@@ -2,5 +2,11 @@
   margin-top: 512px;
   background: #ffffff;
   border-radius: 12px 12px 0 0;
-  padding-top: 32px;
+  padding-top: 42px;
+}
+
+.content-unit {
+  width: 567px;
+  margin-left: 98px;
+  margin-bottom: 71px;
 }
