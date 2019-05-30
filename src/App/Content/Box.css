@@ -1,0 +1,59 @@
+.box {
+  width: 310px;
+  height: 414px;
+  background: #f8e627;
+  border-radius: 12px;
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.box>* {
+  position: absolute;
+  margin: 0 28px;
+}
+
+.box .number {
+  color: #ecda1f;
+  font-family: Montserrat, sans-serif;
+  font-size: 216px;
+  font-weight: 700;
+  left: -30px;
+  top: -70px;
+  margin: 0;
+}
+
+.box .icon {
+  top: 60px;
+  display: block;
+}
+
+.box h2 {
+  top: 96px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.box .box-content {
+  top: 150px;
+  font-family: Montserrat, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.box .box-content button {
+  background: none repeat scroll 0 0 transparent;
+  margin-top: 25px;
+  border: solid 1px #3a405b;
+  border-radius: 8px;
+  height: 51px;
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000;
+}
