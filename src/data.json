@@ -21,28 +21,32 @@
   "gallery": [
     {
       "url": "gallery/1.png",
-      "alt": "lady on rails"
+      "alt": "ladies on rails"
     },
-    {
-      "url": "gallery/2.png",
-      "alt": "I love cutting bananas"
-    },
-    {
-      "url": "gallery/3.png",
-      "alt": "fancy black and white portrait"
-    },
+    [
+      {
+        "url": "gallery/2.png",
+        "alt": "I love cutting bananas"
+      },
+      {
+        "url": "gallery/3.png",
+        "alt": "fancy black and white portrait"
+      }
+    ],
     {
       "url": "gallery/4.png",
       "alt": "very romantic couple"
     },
-    {
-      "url": "gallery/5.png",
-      "alt": "not sure what this image depicts"
-    },
-    {
-      "url": "gallery/6.png",
-      "alt": "neon-lit face"
-    }
+    [
+      {
+        "url": "gallery/5.png",
+        "alt": "not sure what this image depicts"
+      },
+      {
+        "url": "gallery/6.png",
+        "alt": "neon-lit face"
+      }
+    ]
   ],
   "boxes": [
     {
