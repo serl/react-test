@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import Article from './Article';
-import Gallery from './Gallery';
+import Gallery from '../Gallery';
 import Box from './Box';
 
 function Content({ articles, gallery, boxes, setPopup }) {
@@ -10,7 +10,9 @@ function Content({ articles, gallery, boxes, setPopup }) {
       {articles.map((item, i) => (
         <Article key={i} {...item} />
       ))}
-      <Gallery images={gallery} />
+      <div className="content-unit">
+        <Gallery items={gallery} />
+      </div>
       <div className="boxes-container">
         {boxes.map((item, i) => (
           <Box key={i} {...item} setPopup={setPopup} />
