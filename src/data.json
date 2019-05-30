@@ -1,0 +1,40 @@
+{
+  "head": {
+    "title": "Asdrubale",
+    "keywords": [
+      "lorem",
+      "ipsum",
+      "dolor"
+    ]
+  },
+  "articles": [
+    {
+      "head": "head",
+      "title": "title",
+      "content": "content",
+      "author": {
+        "image": "http://example.com/image.png",
+        "name": "Lorem Ipsum"
+      }
+    }
+  ],
+  "gallery": [
+    {
+      "url": "http://example.com/image1.png",
+      "alt": "first image"
+    },
+    {
+      "url": "http://example.com/image2.png",
+      "alt": "second image"
+    }
+  ],
+  "boxes": [
+    {
+      "number": "01",
+      "head": "head",
+      "title": "title",
+      "content": "content",
+      "action": "Clicca qui"
+    }
+  ]
+}
