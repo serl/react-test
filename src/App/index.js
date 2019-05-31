@@ -10,10 +10,10 @@ function App({ head, articles, gallery, boxes }) {
       {popup ?
         <Popup onClick={() => { setPopup(null) }} {...popup} />
         :
-        <div>
+        <React.Fragment>
           <Head {...head} />
           <Content {...{ articles, gallery, boxes, setPopup }} />
-        </div>
+        </React.Fragment>
       }
     </div>
   );

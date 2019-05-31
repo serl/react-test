@@ -6,19 +6,21 @@ import Box from './Box';
 
 function Content({ articles, gallery, boxes, setPopup }) {
   return (
-    <div className="colon content">
-      {articles.map((item, i) => (
-        <Article key={i} {...item} />
-      ))}
-      <div className="content-unit">
-        <Gallery items={gallery} />
+    <>
+      <div className="colon content">
+        {articles.map((item, i) => (
+          <Article key={i} {...item} />
+        ))}
+        <div className="content-unit">
+          <Gallery items={gallery} />
+        </div>
       </div>
-      <div className="boxes-container">
+      <div className="colon boxes-container">
         {boxes.map((item, i) => (
           <Box key={i} {...item} setPopup={setPopup} />
         ))}
       </div>
-    </div>
+    </>
   );
 }
 

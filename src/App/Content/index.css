@@ -14,6 +14,8 @@
 
 .boxes-container {
   position: absolute;
-  top: -70px;
-  left: 745px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
