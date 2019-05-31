@@ -1,12 +1,24 @@
 .content {
-  background: #ffffff;
-  border-radius: 12px 12px 0 0;
   padding-top: 42px;
   position: absolute;
   /* top: 512px; JS managed */
+  height: 100vh;
   left: 50%;
   margin-left: -576px;
-  height: 100vh;
+}
+
+.content-background {
+  background: #ffffff;
+  border-radius: 12px 12px 0 0;
+  transition-property: width, left, margin;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.content-background.full-width {
+  left: 0;
+  margin-left: 0;
+  width: 100%;
 }
 
 .content-unit {
