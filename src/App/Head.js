@@ -1,9 +1,16 @@
 import React from 'react';
 import './Head.css'
 
-function Head({ title, keywords }) {
+const scrollTopThreshold = 330;
+
+function Head({ title, keywords, scrollTop }) {
+  const style = {};
+  if (scrollTop > scrollTopThreshold) {
+    style.position = 'absolute';
+    style.top = scrollTopThreshold;
+  }
   return (
-    <header>
+    <header style={style}>
       <div className="colon">
         <h1>{title}</h1>
         <ul>
