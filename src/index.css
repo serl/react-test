@@ -5,8 +5,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background: url('cover.png') no-repeat 0 60px;
-  background-size: 100%;
+  /* transform: translateZ(0); should fix a painting issue in edge and safari, but gives back a paint issue for the popup */
 }
 
 .colon {

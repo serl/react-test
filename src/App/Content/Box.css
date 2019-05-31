@@ -4,8 +4,21 @@
   background: #f8e627;
   border-radius: 12px;
   position: relative;
+  margin-left: 745px;
   margin-bottom: 30px;
   overflow: hidden;
+}
+
+.box:first-child {
+  margin-top: 442px;
+}
+
+@supports (-webkit-appearance:none) {
+  /* This rule is not necessary in Firefox. And this hack is not working as expected... */
+  .box:last-child {
+    /* I know you'd like about 600px to eat, so here's 600px for you, my dear Chrome: */
+    margin-bottom: 600px;
+  }
 }
 
 .box>* {
@@ -44,6 +57,7 @@
 }
 
 .box .box-content button {
+  appearance: none;
   background: none repeat scroll 0 0 transparent;
   margin-top: 25px;
   border: solid 1px #3a405b;
