@@ -24,7 +24,7 @@ function App({ head, articles, gallery, boxes }) {
         :
         <React.Fragment>
           <Head {...head} scrollTop={scrollTop} />
-          <Content {...{ articles, gallery, boxes, setPopup }} />
+          <Content {...{ articles, gallery, boxes, setPopup }} scrollTop={scrollTop} />
         </React.Fragment>
       }
     </div>

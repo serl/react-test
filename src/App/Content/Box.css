@@ -9,10 +9,6 @@
   overflow: hidden;
 }
 
-.box:first-child {
-  margin-top: 442px;
-}
-
 .box>* {
   position: absolute;
   margin: 0 28px;
