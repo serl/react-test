@@ -4,7 +4,7 @@ import Article from './Article';
 import Gallery from '../Gallery';
 import Box from './Box';
 
-function Content({ articles, gallery, boxes, setPopup, scrollTop }) {
+function Content({ articles, gallery, boxes, scrollTop }) {
   const contentTop = 512 - (scrollTop * .2);
   const boxesTop = 442 + (scrollTop * .1);
 
@@ -21,7 +21,7 @@ function Content({ articles, gallery, boxes, setPopup, scrollTop }) {
       </div>
       <div className="colon boxes-container" style={{ top: boxesTop }}>
         {boxes.map((item, i) => (
-          <Box key={i} {...item} setPopup={setPopup} />
+          <Box key={i} {...item} />
         ))}
       </div>
     </>

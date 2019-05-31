@@ -1,15 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Box.css'
+import Gallery from '../Gallery';
 
-function Box({ number, icon, title, content, action, gallery, setPopup }) {
+function Box({ number, icon, title, content, action, gallery }) {
+  const [fullScreen, setFullscreen] = useState(false);
   return (
-    <div className="box">
-      <div className="number">{number}</div>
-      {icon && <img className="icon" src={`/icons/${icon}.svg`} alt={icon} />}
-      <h2>{title}</h2>
-      <div className="box-content">
-        <p>{content}</p>
-        {action && <button onClick={() => setPopup({ content, gallery })}>{action}</button>}
+    <div className={`box ${fullScreen ? 'box-fullscreen' : ''}`} onClick={() => fullScreen && setFullscreen(false)}>
+      <div className="box-small">
+        <div className="number">{number}</div>
+        {icon && <img className="icon" src={`/icons/${icon}.svg`} alt={icon} />}
+        <h2>{title}</h2>
+        <div className="box-content">
+          <p>{content}</p>
+          {action && <button onClick={() => setFullscreen(true)}>{action}</button>}
+        </div>
+      </div>
+      <div className="box-big">
+        <div className="box-top">
+          <p>{content}</p>
+        </div>
+        <div className="box-bottom">
+          {gallery && <Gallery items={gallery} />}
+        </div>
       </div>
     </div>
   );
