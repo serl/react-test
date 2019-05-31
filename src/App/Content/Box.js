@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Box.css'
 import Gallery from '../Gallery';
 
-function Box({ number, icon, title, content, action, gallery }) {
-  const [fullScreen, setFullscreen] = useState(false);
+function Box({ number, icon, title, content, action, gallery, fullScreen, setFullscreen }) {
   return (
     <div className={`box ${fullScreen ? 'box-fullscreen' : ''}`} onClick={() => fullScreen && setFullscreen(false)}>
       <div className="box-small">

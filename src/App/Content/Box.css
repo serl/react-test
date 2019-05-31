@@ -72,7 +72,7 @@
   height: 658px;
   margin-left: calc(calc(1152px - 957px)/2);
   margin-right: calc(calc(1152px - 957px)/2);
-  /* position: relative; */
+  z-index: 20;
 }
 
 .box-fullscreen .box-small {
