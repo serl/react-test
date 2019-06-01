@@ -5,12 +5,12 @@
   height: 100vh;
   left: 50%;
   margin-left: -576px;
+  border-radius: 12px 12px 0 0;
 }
 
 .content-background {
   background: #ffffff;
-  border-radius: 12px 12px 0 0;
-  transition-property: width, left, margin;
+  transition-property: width, left, margin-left, margin-right;
   transition-duration: 0.3s;
   transition-timing-function: ease;
 }
@@ -51,4 +51,32 @@
 .popup-background.show {
   opacity: 1;
   pointer-events: all;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    position: static;
+    background: #fff;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+  .content-background {
+    display: none;
+  }
+  .content-unit {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .boxes-container {
+    position: static;
+    margin: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 80%;
+    width: 650px;
+  }
 }

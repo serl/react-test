@@ -30,3 +30,9 @@ header li {
   text-align: center;
   padding: 0 15px;
 }
+
+@media (max-width: 1200px) {
+  h1 {
+    left: 10%;
+  }
+}

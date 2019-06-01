@@ -113,3 +113,13 @@
   padding-top: 74px;
   width: 957px;
 }
+
+@media (max-width: 1200px) {
+  .box {
+    margin-left: 0;
+  }
+  .box-fullscreen {
+    width: 100%;
+    margin-right: 0;
+  }
+}

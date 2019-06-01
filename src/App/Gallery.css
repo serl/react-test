@@ -20,3 +20,17 @@
   height: 80px;
   border-radius: 4px;
 }
+
+@media (max-width: 1200px) {
+  .gallery.level-0 img {
+    width: 31%;
+    height: auto;
+  }
+  .gallery.level-odd {
+    width: 14%;
+  }
+  .gallery.level-1 img {
+    width: 100%;
+    height: auto;
+  }
+}
