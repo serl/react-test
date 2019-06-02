@@ -1,5 +1,6 @@
 import React from 'react';
 import './Box.css'
+import Icon from '../../Icon'
 import Gallery from '../Gallery';
 
 function Box({ number, icon, title, content, action, gallery, fullScreen, setFullscreen }) {
@@ -7,7 +8,7 @@ function Box({ number, icon, title, content, action, gallery, fullScreen, setFul
     <div className={`box ${fullScreen ? 'box-fullscreen' : ''}`} onClick={() => fullScreen && setFullscreen(false)}>
       <div className="box-small">
         <div className="number">{number}</div>
-        {icon && <img className="icon" src={`/icons/${icon}.svg`} alt={icon} />}
+        {icon && <Icon name={icon} className="icon" />}
         <h2>{title}</h2>
         <div className="box-content">
           <p>{content}</p>

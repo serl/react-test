@@ -1,5 +1,6 @@
 import React from 'react';
 import './Article.css';
+import Icon from '../../Icon';
 
 function Article({ head, title, content, author }) {
   return (
@@ -9,9 +10,9 @@ function Article({ head, title, content, author }) {
       <p>{content}</p>
       <hr />
       <div className="icons">
-        <img src={"/icons/flame.svg"} alt="flame" />
-        <img src={"/icons/roll.svg"} alt="roll" />
-        <img src={"/icons/drop.svg"} alt="drop" />
+        <Icon name="flame" />
+        <Icon name="roll" />
+        <Icon name="drop" />
       </div>
       <div className="author">
         <img src={author.image} alt="" />
