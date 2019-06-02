@@ -68,10 +68,11 @@
 }
 
 .box-fullscreen {
-  width: 957px;
+  width: 83%;
+  /* width: 957px */
   height: 658px;
-  margin-left: calc(calc(1152px - 957px)/2);
-  margin-right: calc(calc(1152px - 957px)/2);
+  margin-left: 8.5%;
+  margin-right: 8.5%;
   z-index: 20;
 }
 
