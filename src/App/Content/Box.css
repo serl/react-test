@@ -104,6 +104,20 @@
   bottom: 0;
   width: 100%;
   overflow: hidden;
+  animation-name: box-big-bottom-open;
+  animation-duration: .2s;
+  animation-delay: .3s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+
+@keyframes box-big-bottom-open {
+  from {
+    height: 0;
+  }
+  to {
+    height: 50%;
+  }
 }
 
 .box-big p {
@@ -115,17 +129,37 @@
   width: 485px;
   margin-left: 99px;
   vertical-align: middle;
+  animation-delay: .7s;
 }
 
 .box-big .gallery-container {
   display: inline-block;
   vertical-align: middle;
   width: 100%;
+  animation-delay: .4s;
 }
 
 .box-big .gallery {
   margin-left: 99px;
   width: 957px;
+}
+
+.box-big p, .box-big .gallery-container {
+  animation-name: box-big-bottom-contents-fade;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+
+@keyframes box-big-bottom-contents-fade {
+  from {
+    opacity: 0;
+    padding-top: 80px;
+  }
+  to {
+    opacity: 1;
+    padding-top: 0;
+  }
 }
 
 @media (max-width: 1200px) {
