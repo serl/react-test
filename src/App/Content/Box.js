@@ -20,7 +20,7 @@ function Box({ number, icon, title, content, action, gallery, fullScreen, setFul
           <p>{content}</p>
         </div>
         <div className="box-bottom">
-          {gallery && <Gallery items={gallery} />}
+          {gallery && <Gallery items={gallery} responsive={false} />}
         </div>
       </div>
     </div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import './Gallery.css'
 
-function Gallery({ items, level = 0 }) {
+function Gallery({ items, level = 0, responsive = true }) {
   return (
-    <div className={`gallery level-${level} level-${level % 2 ? 'odd' : 'even'}`}>
+    <div className={`gallery level-${level} level-${level % 2 ? 'odd' : 'even'} ${responsive ? 'responsive' : ''}`}>
       {
         items.map((item, i) => (
           Array.isArray(item) ?
