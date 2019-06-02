@@ -5,8 +5,14 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background: url('cover.png') no-repeat 0 60px;
-  background-size: 100%;
+}
+
+.cover {
+  display: block;
+  position: absolute;
+  margin-top: 60px;
+  width: 100%;
+  z-index: -1;
 }
 
 .colon {
@@ -15,6 +21,9 @@ body {
 }
 
 @media (max-width: 1200px) {
+  .cover {
+    position: static;
+  }
   .colon {
     width: auto;
   }
