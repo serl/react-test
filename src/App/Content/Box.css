@@ -145,5 +145,13 @@
   }
   .box-fullscreen {
     position: relative;
+    height: 450px;
+  }
+  .box-big p {
+    margin: 0 10%;
+    max-width: 80%;
+  }
+  .box-big .gallery {
+    margin: 0 10%;
   }
 }
