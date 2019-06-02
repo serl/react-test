@@ -36,3 +36,14 @@ header li {
     left: 10%;
   }
 }
+
+@media (max-width: 600px) {
+  header {
+    height: auto;
+  }
+  header h1, header li {
+    position: static;
+    text-align: center;
+    line-height: 30px;
+  }
+}
