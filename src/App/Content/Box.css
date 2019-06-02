@@ -65,6 +65,7 @@
 
 .box .box-big {
   display: none;
+  height: 100%;
 }
 
 .box-fullscreen {
@@ -84,12 +85,18 @@
   display: block;
 }
 
-.box-fullscreen .box-top {
-  position: relative;
+.box-big-top:before, .box-big-bottom:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.box-big-top {
   height: 50%;
 }
 
-.box-fullscreen .box-bottom {
+.box-big-bottom {
   background: #fff;
   border-radius: 12px;
   height: 50%;
@@ -99,19 +106,25 @@
   overflow: hidden;
 }
 
-.box-fullscreen p {
+.box-big p {
+  display: inline-block;
   font-family: Montserrat, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 32px;
   width: 485px;
   margin-left: 99px;
-  padding-top: 125px;
+  vertical-align: middle;
 }
 
-.box-fullscreen .gallery {
+.box-big .gallery-container {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.box-big .gallery {
   margin-left: 99px;
-  padding-top: 74px;
   width: 957px;
 }
 
