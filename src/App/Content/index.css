@@ -35,6 +35,11 @@
   left: 0;
 }
 
+.boxes-container.stuck {
+  position: fixed;
+  top: 50px !important;
+}
+
 .popup-background {
   background: #4a4a4a;
   position: fixed;
@@ -70,7 +75,7 @@
     margin-left: 10%;
     margin-right: 10%;
   }
-  .boxes-container {
+  .boxes-container, .boxes-container.stuck {
     position: static;
     margin: 0 10%;
     display: flex;

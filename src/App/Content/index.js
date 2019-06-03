@@ -25,7 +25,7 @@ function Content({ articles, gallery, boxes, scrollTop }) {
           <Gallery items={gallery} />
         </div>
       </div>
-      <div className="colon boxes-container" style={{ top: boxesTop }}>
+      <div className={`colon boxes-container ${boxesTop < scrollTop + 50 ? 'stuck' : ''}`} style={{ top: boxesTop }}>
         {boxes.map((item, i) => (
           <Box key={i} {...item} fullScreen={selectedBox === i} setFullscreen={state => setSelectedBox(state ? i : undefined)} />
         ))}
