@@ -105,8 +105,8 @@
   width: 100%;
   overflow: hidden;
   animation-name: box-big-bottom-open;
-  animation-duration: .2s;
-  animation-delay: .3s;
+  animation-duration: .3s;
+  animation-delay: .2s;
   animation-timing-function: ease;
   animation-fill-mode: both;
 }
@@ -129,14 +129,14 @@
   width: 485px;
   margin-left: 99px;
   vertical-align: middle;
-  animation-delay: .7s;
+  animation-delay: .4s;
 }
 
 .box-big .gallery-container {
   display: inline-block;
   vertical-align: middle;
   width: 100%;
-  animation-delay: .4s;
+  animation-delay: .2s;
 }
 
 .box-big .gallery {
@@ -146,8 +146,7 @@
 
 .box-big p, .box-big .gallery-container {
   animation-name: box-big-bottom-contents-fade;
-  animation-duration: .7s;
-  animation-timing-function: ease;
+  animation-duration: .4s;
   animation-fill-mode: both;
 }
 
