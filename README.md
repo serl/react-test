@@ -1,5 +1,9 @@
 # react-test
 
+## It's alive!
+
+[Hosted on GitHub Pages](http://serl.it/react-test/).
+
 ## Run
 
 Run in development mode: `npm start`.
