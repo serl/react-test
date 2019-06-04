@@ -5,7 +5,7 @@ import Cover from './Cover';
 import Content from './Content';
 import Boxes from './Boxes';
 
-function App({ head, articles, gallery, boxes }) {
+function App({ head, cover, articles, gallery, boxes }) {
   const [scrollTop, setScrollTop] = useState(0);
   useEffect(() => {
     const scrollHandler = () =>
@@ -21,7 +21,7 @@ function App({ head, articles, gallery, boxes }) {
   return (
     <div className="App">
       <Head {...head} scrollTop={scrollTop} />
-      <Cover scrollTop={scrollTop} />
+      <Cover {...{ cover, scrollTop }} />
       <Content {...{ articles, gallery, boxes }} scrollTop={scrollTop} />
       <Boxes {...{ boxes, scrollTop }} />
     </div>
