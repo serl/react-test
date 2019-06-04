@@ -80,8 +80,6 @@
     margin: 0 10%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 80%;
-    width: 650px;
+    width: 80%;
   }
 }
