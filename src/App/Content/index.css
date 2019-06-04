@@ -37,7 +37,6 @@
 
 .boxes-container.stuck {
   position: fixed;
-  top: 50px !important;
 }
 
 .popup-background {
