@@ -1,6 +1,6 @@
 import React from 'react';
 import './Box.css'
-import Icon from '../../Icon'
+import Icon from '../Icon'
 import Gallery from '../Gallery';
 
 function Box({ number, icon, title, content, action, gallery, fullScreen, setFullscreen }) {

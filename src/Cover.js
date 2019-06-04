@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './Cover.css';
 
 function Cover({ cover, scrollTop }) {
   const coverTop = 60 + (scrollTop * .15);

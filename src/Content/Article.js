@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import './Article.css';
-import Icon from '../../Icon';
+import Icon from '../Icon';
 
 function Article({ head, title, content, author }) {
   return (
