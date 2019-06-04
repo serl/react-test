@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
-import cover from '../cover.png';
 import Head from './Head';
 import Content from './Content';
 
@@ -19,7 +18,6 @@ function App({ head, articles, gallery, boxes }) {
 
   return (
     <div className="App">
-      <img className="cover" src={cover} alt="" />
       <Head {...head} scrollTop={scrollTop} />
       <Content {...{ articles, gallery, boxes }} scrollTop={scrollTop} />
     </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import './Head.css';
 
-const scrollTopThreshold = 330;
+const scrollTopThreshold = 380;
 
 function Head({ title, keywords, scrollTop }) {
   const style = {};

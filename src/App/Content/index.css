@@ -1,7 +1,15 @@
+.cover {
+  display: block;
+  position: absolute;
+  /* top: 60px; JS managed */
+  width: 100%;
+  z-index: -1;
+}
+
 .content {
   padding-top: 42px;
   position: absolute;
-  /* top: 512px; JS managed */
+  top: 512px;
   height: 150vh;
   left: 50%;
   margin-left: -576px;
@@ -58,6 +66,10 @@
 }
 
 @media (max-width: 1200px) {
+  .cover {
+    position: static;
+    margin-top: 60px;
+  }
   .content {
     position: static;
     background: #fff;

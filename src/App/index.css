@@ -9,23 +9,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.cover {
-  display: block;
-  position: absolute;
-  margin-top: 60px;
-  width: 100%;
-  z-index: -1;
-}
-
 .colon {
   width: 1152px;
   margin: 0 auto;
 }
 
 @media (max-width: 1200px) {
-  .cover {
-    position: static;
-  }
   .colon {
     width: auto;
   }
