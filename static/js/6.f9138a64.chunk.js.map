@@ -1,0 +1,1 @@
+{"version":3,"sources":["Icon/roll.svg"],"names":["module","exports","__webpack_require__","p"],"mappings":"4EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/6.f9138a64.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/roll.140615dd.svg\";"],"sourceRoot":""}
