@@ -1,0 +1,14 @@
+.cover {
+  display: block;
+  position: absolute;
+  /* top: 60px; JS managed */
+  width: 100%;
+  z-index: -1;
+}
+
+@media (max-width: 1200px) {
+  .cover {
+    position: static;
+    margin-top: 60px;
+  }
+}
