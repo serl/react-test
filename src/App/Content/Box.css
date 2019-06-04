@@ -1,3 +1,8 @@
+/*
+.box is limited in size in pixels, so I think it is not a good idea to use em/rem here
+(or maybe simply I should have declared its height as em/rem)
+*/
+
 .box {
   width: 310px;
   height: 414px;

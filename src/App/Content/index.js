@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../index.css';
 import './index.css';
 import Article from './Article';
 import Gallery from '../Gallery';

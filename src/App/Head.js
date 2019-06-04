@@ -1,5 +1,6 @@
 import React from 'react';
-import './Head.css'
+import './index.css';
+import './Head.css';
 
 const scrollTopThreshold = 330;
 

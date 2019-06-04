@@ -1,3 +1,7 @@
+/*
+Here everything is in rem, as the content can freely flow to the bottom
+*/
+
 article h3 {
   font-family: Montserrat, sans-serif;
   font-size: 0.875rem;
