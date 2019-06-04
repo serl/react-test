@@ -8,6 +8,7 @@
 
 .boxes-container.stuck {
   position: fixed;
+  /* top: 50px; JS managed */
 }
 
 .popup-background {

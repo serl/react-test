@@ -23,7 +23,12 @@ function Boxes({ boxes, scrollTop }) {
       />
       <div className={`colon boxes-container ${boxesClass}`} style={{ top: boxesTop }}>
         {boxes.map((item, i) => (
-          <Box key={i} {...item} fullScreen={selectedBox === i} setFullscreen={state => setSelectedBox(state ? i : undefined)} />
+          <Box
+            key={i}
+            {...item}
+            fullScreen={selectedBox === i}
+            setFullscreen={state => setSelectedBox(state ? i : undefined)}
+          />
         ))}
       </div>
     </>

@@ -6,10 +6,12 @@ const scrollTopThreshold = 380;
 
 function Head({ title, keywords, scrollTop }) {
   const style = {};
+
   if (scrollTop > scrollTopThreshold) {
     style.position = 'absolute';
     style.top = scrollTopThreshold;
   }
+
   return (
     <header style={style}>
       <div className="colon">
