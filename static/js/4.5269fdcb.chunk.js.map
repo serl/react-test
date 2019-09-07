@@ -1,0 +1,1 @@
+{"version":3,"sources":["Icon/flame.svg"],"names":["module","exports","__webpack_require__","p"],"mappings":"4EAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/4.5269fdcb.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/flame.8ee197aa.svg\";"],"sourceRoot":""}
